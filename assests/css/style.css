@@ -24,7 +24,7 @@
 :root[data-theme='light'] {
   --text: #06020d;
   --background: #F8F8FF;
-  --primary: #6e2fda;
+  --primary: #530fca;
   --secondary: #e981cf;
   --accent: #e364a1;
   --logoimg: url(../img/logo-black.png);
@@ -53,7 +53,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 40px;
+  padding: 30px;
 }
 
 /* logo */
@@ -75,6 +75,11 @@ ul {
 ul li a {
   text-decoration: none;
   color: var(--text);
+}
+
+ul li:hover > a {
+  color: var(--primary);
+  border-bottom: 1px solid var(--primary);
 }
 
 /* DropMenu Settings */
@@ -124,7 +129,7 @@ ul li a {
   height: 26px;
   border-radius: 50px;
   position: relative;
-  padding: 5px;
+  padding: 7px;
   cursor: pointer;
   display: flex;
   justify-content: space-between;
