@@ -4,6 +4,12 @@ This CGPA Calculator is a web application that allows users to calculate their C
 
 # Lets Build Together
 
+It's Just Beginning...
+
+# Collabrator's
+
+- Balamurugan P M
+- Devaprakash R
 
 ## License
 
