@@ -1,64 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CGPA Calculator</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Collegiate</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Meta -->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 </head>
+
 <body>
-    <div class="container">
-        <h1>CGPA Calculator</h1>
-        <div class="form-container">
-            <form id="cgpa-form">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="degree">Degree:</label>
-                        <select id="degree" name="degree" class="form-control">
-                            <option value="choose">Choose Degree</option>
-                            <option value="be">BE</option>
-                            <option value="btech">B.Tech</option>
-                            <!-- Add other degrees as needed -->
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="course">Course:</label>
-                        <select id="course" name="course" class="form-control">
-                            <option value="choose">Choose Course</option>
-                            <option value="cse">Computer Science and Engineering</option>
-                            <option value="ece">Electronics and Communication Engineering</option>
-                            <option value="eee">Electrical and Electronics Engineering</option>
-                            <option value="mech">Mechanical Engineering</option>
-                            <option value="civil">Civil Engineering</option>
-                            <!-- Add other courses as needed -->
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="semester">Semester:</label>
-                        <select id="semester" name="semester" class="form-control">
-                            <option value="choose">Choose Semester</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <!-- Add other semesters as needed -->
-                        </select>
-                    </div>
+
+    <!-- header -->
+    <header>
+        <a href="./index.html">
+            <div class="logo" hidden></div>
+            <img src="./assests/img/logo1.png" alt="Collegiate Logo" class="img-fluid logo">
+        </a>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./CGPA/">CGPA Calculater</a></li>
+            <li><a href="./Notes/">Notes/QP</a></li>
+
+            <div class="dropDown">
+                <li><a href="#">Others Links <i class="bi bi-caret-down-fill"></i></a></li>
+                <div class="dropDown-content">
+                    <li class="dropItem"><a href="#">Results</a></li>
+                    <li class="dropItem"><a href="#">Blog</a></li>
+                    <li class="dropItem"><a href="#">About</a></li>
+                    <li class="dropItem"><a href="#">Contact</a></li>
                 </div>
-                <div id="courses-container" class="form-column">
-                    <!-- Courses will be dynamically added here based on degree and semester selection -->
-                </div>
-                <button type="button" id="calculate" class="btn">Calculate CGPA</button>
-            </form>
+
+            </div>
+        </ul>
+        <a href="#" class="login-btn">Login</a>
+        <div>
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="checkbox-label">
+                <i class="bi bi-moon"></i>
+                <i class="bi bi-sun"></i>
+                <span class="ball"></span>
+            </label>
         </div>
-        <div id="result">
-            <h2>Your CGPA is: <span id="cgpa">0.00</span></h2>
-        </div>
-    </div>
-    <script src="script.js"></script>
+    </header>
+
+
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="./assests/js/script.js"></script>
 </body>
+
 </html>
