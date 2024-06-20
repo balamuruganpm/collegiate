@@ -4,7 +4,7 @@ This CGPA Calculator is a web application that allows users to calculate their C
 
 # Lets Build Together
 
-It's Just Beginning...
+It's Just Beginning... Feel free to collabrate
 
 # Collabrator's
 
