@@ -1,16 +1,13 @@
-# CGPA Calculator
-
-This CGPA Calculator is a web application that allows users to calculate their Cumulative Grade Point Average (CGPA) based on the grades obtained in their subjects.
+# Collegiate
 
 # Lets Build Together
 
-It's Just Beginning...
+- UI/UX Design Link: <a href="https://www.figma.com/design/wTxKQ3WsgVBn9TVvyMtTwm/Collegiate-App?node-id=418-76&t=R3afVH0jRx13UjMV-1">Click here</a>
 
-# Collabrator's
+- Add Your Idea: <a href="https://github.com/balamuruganpm/collegiate/blob/features/README.md">Click here to add as features</a>
 
-- Balamurugan P M
-- Devaprakash R
-
+- Live Link: <a href="#">Soon</a>
+ 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
